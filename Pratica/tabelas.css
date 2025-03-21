@@ -1,0 +1,281 @@
+@import url("../Inicial/colors.css");
+
+
+html {
+    font-family: Inter;
+    font-size: 1.2em;
+}
+
+body {
+    margin: 0;
+}
+
+/* Navegação */
+.navigator {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    z-index: 1000;
+
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 12px;
+}
+
+#openSidebar {
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  border-radius: 6px;
+  color: inherit;
+}
+
+
+
+
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+#textSidebar {
+  margin-inline: 12px 0;
+  padding: 12px;
+  display: flex;
+  border-radius: 6px;
+
+}
+
+
+#closeSidebar {
+  cursor: pointer;
+  margin-inline: 0 12px;
+  padding: 12px;
+  display: flex;
+  border-radius: 6px;
+  color: inherit;
+
+}
+
+.sidebar-icons li a {
+ display: flex;
+ gap: 12px;
+}
+
+
+
+
+
+/* Layout */
+.inicio {
+    display: grid;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 1000;
+}
+
+h2 {
+text-align: center;
+font-size: 1em;
+font-weight: normal;
+}
+
+h3 {
+    font-size: 2em;
+
+}
+
+h4 {
+    font-size: 1.4em;
+    margin-left: 24px;
+
+}
+
+.inicio p {
+    margin-top: 0;
+
+
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    gap: 6px;
+    width: max-content;
+    align-items: end;
+  }
+
+
+.card-box {
+    padding: 2em;
+    border-radius: 12px;
+    margin: 0;
+}
+
+
+
+
+
+
+img {
+width: 20vh;
+border-radius: 12px;
+}
+
+
+.inicio p a {
+text-decoration: none;
+}
+
+
+
+
+.gridbutton {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-block: 24px;
+}
+
+a.button {
+    font-weight: bold;
+    padding: 12px;
+    padding-inline: 24px;
+    border-radius: 4em;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+}
+
+a.button-sim, a.button-nao {
+    font-weight: bold;
+    padding: 16px;
+    padding-inline: 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+a.button-sugest {
+    font-weight: bold;
+    padding-inline: 24px;
+    border-radius: 4em;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+svg {
+  stroke-width: 2.5px;
+}
+
+
+i {
+  width: 24px;
+  height: 24px;
+}
+
+a:focus, a:active {
+    outline: none;
+    box-shadow: none;
+}
+
+a, li {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+li.contrast-light {
+display: none;
+}
+
+li.contrast-dark {
+display: none;
+}
+
+/* TABELAS */
+
+table {
+    border-collapse: collapse;
+    margin: 24px;
+}
+th, td {
+    padding: 12px; /* Adiciona um pouco de espaço interno para melhor legibilidade */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+th {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+ /* Contêiner para a tabela */
+.table-container {
+    overflow-x: auto; /* Permite rolagem horizontal */
+    width: 100%;
+}
+
+
+
+
+
+/*------------------------*/
+
+p a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 24px;
+  gap: 6px;
+  width: max-content;
+  align-items: end;
+
+}
+
+td a {
+text-decoration: none;
+color: var(--color-blue-primary);
+
+}
+
+
+
+
+/*
+
+Casa na Fátima - 150Mil
+
+3.60x17 metros
+contato: 91 98127-0704 / 91 98239-2143 whatsapp
+
+fotos
+
+
+*/
