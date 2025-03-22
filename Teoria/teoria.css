@@ -275,7 +275,7 @@ a#leftimg, a#rightimg {
     display: flex;
     border-radius: 100%;
     cursor: pointer;
-    padding: 60px;
+    padding: 6px;
 }
 
 
@@ -297,5 +297,6 @@ a#leftimg, a#rightimg {
 .indicators span.active {
 width: 36px;
 height: 12px;
+border-radius: 6em;
 
 }
