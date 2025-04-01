@@ -60,6 +60,12 @@
         lucide.createIcons();
     </script>
     <script src="scripts.js" defer></script>
+    <script>
+        if (window.location.pathname.endsWith("hematita.html")) {
+          window.history.replaceState(null, "", window.location.pathname.replace("hematita.html", ""));
+        }
+    </script>
+    
 </body>
 
 </html>
