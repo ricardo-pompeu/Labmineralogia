@@ -66,6 +66,13 @@
     </script>
     <script src="../Inicial/scripts.js" defer></script>
 
+    <script>
+  if (window.location.pathname.endsWith("Teoria/Teoria 1.html")) {
+    window.history.replaceState(null, "", window.location.pathname.replace("Teoria/Teoria 1.html", ""));
+  }
+</script>
+
+
 </body>
 
 </html>
