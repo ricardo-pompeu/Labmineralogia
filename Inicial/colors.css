@@ -5,38 +5,38 @@
     hover = #00000010
     active = #00000020
     */
-    --background-light: #FFFFFF;
-    --surface-light: #EBEBEB;
-    --text-primary-light: #2F2F2F;
-    --text-secondary-light: #676767;
+    --background-light: #dce0e8;
+    --surface-light: #eff1f5;
+    --text-primary-light: #4c4f69;
+    --text-secondary-light: #5c5f77;
     
-    --hover-sf-light: #dcdcdc;
-    --active-sf-light: #cecece;
+    --hover-sf-light: #eff1f560;
+    --active-sf-light: #eff1f530;
     
-    --button-light: #E6E6E6;
-    --button-hover-light: #d8d8d8;
-    --button-active-light: #c9c9c9;
+    --button-light: #ccd0da;
+    --button-hover-light: #ccd0da60;
+    --button-active-light: #ccd0da30;
 
-    --card-box-light: #E6E6E6;
+    --card-box-light: #ccd0da;
     
 
     /* Dark Mode */
     --background-dark: #11111b;
-    --surface-dark: #181825;
+    --surface-dark: #1e1e2e;
     --text-primary-dark: #cdd6f4;
-    --text-secondary-dark: #C1C1C1;
+    --text-secondary-dark: #bac2de;
 
-    --hover-sf-dark: #3d3d3d;
-    --active-sf-dark: #4a4a4a;
+    --hover-sf-dark: #1e1e2e30;
+    --active-sf-dark: #1e1e2e60;
     
-    --button-dark: #3A3A3A;
-    --button-hover-dark: #464646;
-    --button-active-dark: #535353;
+    --button-dark: #313244;
+    --button-hover-dark: #31324430;
+    --button-active-dark: #31324460;
 
-    --card-box-dark: #3A3A3A;
+    --card-box-dark: #313244;
 
 /* Cores Gerais */
-    --color-blue-primary: #f38ba8;
+    --color-blue-primary: #89b4fa;
     --color-blue-hover: #4990E7;
     --color-blue-active: #2A6AB6;
     --color-blue-find: #5A82B5;
