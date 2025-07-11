@@ -1,0 +1,512 @@
+@import url("../Inicial/colors.css");
+
+
+html {
+    font-family: Inter;
+    font-size: 1.2em;
+}
+
+body {
+    margin: 0;
+
+    
+}
+
+/* Navegação */
+.navigator {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 12px;
+}
+
+#openSidebar {
+  cursor: pointer;
+  display: flex;
+  padding: 12px;
+  border-radius: 6px;
+  color: inherit;
+}
+
+
+
+
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+#textSidebar {
+  margin-inline: 12px 0;
+  padding: 12px;
+  display: flex;
+  border-radius: 6px;
+
+}
+
+
+#closeSidebar {
+  cursor: pointer;
+  margin-inline: 0 12px;
+  padding: 12px;
+  display: flex;
+  border-radius: 6px;
+  color: inherit;
+
+}
+
+.sidebar-icons li a {
+ display: flex;
+ gap: 12px;
+}
+
+
+
+
+
+/* Layout */
+.inicio {
+    display: grid;
+    margin: 24px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 1000;
+}
+
+h2 {
+text-align: center;
+font-size: 1em;
+font-weight: normal;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+
+
+
+
+
+
+img {
+
+}
+
+.imagens-ctd {
+background: url(../Src/Imagens/1.jpg);
+
+}
+
+.inicio p a {
+text-decoration: none;
+}
+
+
+
+
+
+
+.gridbutton {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    justify-content: center;
+    margin-block: 12px;
+}
+
+a.button, a.button-sugest {
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.allgrid-buton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+
+
+}
+
+
+
+
+/* Sidebar */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#sidebar {
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    top: 0;
+    left: -280px;
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.navigator-sidebar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.sidebar-icons {
+    display: grid;
+    padding: 0px;
+    margin: 0;
+}
+
+.sidebar-icons li {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  margin: 6px 12px 0px 12px;
+  border-radius: 6px;
+  padding: 12px;
+  gap: 6px;
+}
+
+svg {
+
+}
+
+
+i {
+  width: 24px;
+  height: 24px;
+}
+
+a:focus, a:active {
+    outline: none;
+    box-shadow: none;
+}
+
+a, li {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+li.contrast-light {
+display: none;
+}
+
+li.contrast-dark {
+display: none;
+}
+
+
+
+
+/*-----------------------TEORIA MINERAIS--------------------------------------*/
+
+h5 {
+    padding: 4em;
+    margin: 0;
+    background: var(--color-blue-primary);
+    border-radius: 12px;
+    padding-inline: 8em;
+}
+
+
+
+.background-image-mireral {
+    background-image: url(../Src/2560x1600-light-green-solid-color-background.jpg);
+    height: 12em;
+  border-radius: 12px;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  transition: 0.3s all;
+}
+
+
+.navimg {
+display: flex;
+  align-items: center;
+  width: auto;
+  margin-inline: 6px;
+}
+
+a#leftimg, a#rightimg {
+    display: flex;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 6px;
+}
+
+
+.indicators {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    height: 12px;
+}
+
+.indicators span {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.indicators span.active {
+    width: 48px;
+    height: 16px;
+    border-radius: 4em;
+
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 999px) {
+
+
+
+
+.carousel {
+    position: relative;
+    width: 100%; /* Ajustável */
+    height: 32vh;
+    aspect-ratio: 3 / 2; /* Mantém a proporção */
+    overflow: hidden;
+    touch-action: pan-y;
+    margin-block: 2em 12px;
+    
+}
+.carousel-images {
+    display: flex;
+    gap: 24vw;
+    transition: .3s cubic-bezier(.19,1,.22,1);
+    height: 100%;
+    margin-inline: 24px;
+
+    
+}
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta as imagens corretamente */
+    flex-shrink: 0;
+    border-radius: 12px;
+    
+    
+}
+.buttons {
+    width: 100%;
+    justify-content: space-between;
+    display: none;
+    z-index: 1000;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    display: none;
+}
+.buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-inline: 24vw;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.active {
+    transition: 0.3s linear;
+}
+
+.dot:focus, .dot:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.dot, .active {
+    -webkit-tap-highlight-color: transparent;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+    .inicio {
+        margin-inline: 14em;
+
+    }
+
+    .carousel-background{
+        margin-inline: 14em;
+        margin-block: 3em;
+
+
+    }
+    
+    .carousel {
+        position: relative;
+        width: 100%; /* Ajustável */
+        height: 400px;
+        aspect-ratio: 3 / 2; /* Mantém a proporção */
+        overflow: hidden;
+        border-radius: 12px;
+        touch-action: pan-y;
+    }
+    
+    .carousel-images {
+        display: flex;
+        transition: transform 0.3s ease-out;
+        height: 100%;
+    }
+    
+    .carousel-images img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ajusta as imagens corretamente */
+        flex-shrink: 0;
+    }
+    
+    .buttons {
+        position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    height: 100%;
+    align-items: center;
+    }
+    
+    .buttons button {
+        background-color: #00000090;
+        color: white;
+        border: none;
+        padding: 6px;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        margin: 24px;
+    }
+    
+    .buttons button:hover {
+        background-color: #00000070;
+    }
+
+    .buttons button:active {
+        background-color: #00000050;
+    }
+
+
+
+
+    .dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        gap: 6px;
+    }
+    
+    .dot {
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff30;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .5s cubic-bezier(.19,1,.22,1);
+    }
+    
+    .active {
+        background-color: #ffffff;
+        transition: .5s cubic-bezier(.19,1,.22,1);
+    }
+    
+
+}
+
+section.inicio div.allgrid-buton div.gridbutton {
+    margin-block: 12px;
+
+
+}
+
