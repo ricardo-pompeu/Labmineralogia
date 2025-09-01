@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textarea Centralizado</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      /* centraliza horizontal */
+      align-items: center;
+      /* centraliza vertical */
+      background-color: #f0f0f0;
+    }
+
+    textarea {
+      width: 40%;
+      /* ocupa 90% da largura da tela */
+      height: 40%;
+      /* ocupa 90% da altura da tela */
+      resize: none;
+      /* desativa redimensionamento */
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      /* garante que padding não quebre o tamanho */
+    }
+  </style>
+</head>
+
+<body>
+  <textarea placeholder="Digite algo..."></textarea>
+</body>
+
+</html>
