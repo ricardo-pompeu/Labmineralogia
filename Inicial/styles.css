@@ -64,7 +64,9 @@ body {
 
 }
 
-
+.inicial {
+    margin: 48px ;
+}
 
 
 
@@ -72,7 +74,6 @@ body {
 /* Layout */
 .inicio {
     display: grid;
-    
     justify-items: center;
     margin-inline: 36px;
     margin-block: 2em;
